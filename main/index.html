@@ -25,5 +25,13 @@
         <p>
             Window
         </p>
+
+        <p id="timeElement" style="position: absolute; justify-content: flex-end;">
+            6:07 PM
+        </p>
     </div>
+
+    <script>
+        setInterval(function() {var getTime = new Date().toLocaleString(); var selectBar = document.querySelector("#timeElement");   timeElement.innerHTML = getTime;}, 1000);  //Condensed time updater
+    </script>
 </body>
