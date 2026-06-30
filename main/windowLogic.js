@@ -18,7 +18,7 @@ function dragElement(element) {
         initialY = e.clientY;
 
         document.onmouseup = stopDrag;
-        document.onmousemove = DragElement
+        document.onmousemove = DragElement;
 
         }
 
