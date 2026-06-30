@@ -1,0 +1,1 @@
+dragElement(document.getElementById("welcomeWindow"))
