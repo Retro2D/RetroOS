@@ -5,7 +5,9 @@ Built for the Stardust WebOS challenge.
 
 # Currently includes:
 
--Nonfunctional top bar
+-Nonfunctional top bar buttons
+
+-Clock in top bar
 
 -Main window with info on the project, link to Stardust challenge
 
