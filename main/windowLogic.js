@@ -40,3 +40,23 @@ function dragElement(element) {
         document.onmousemove = null;
     }
 }
+
+var welcomeWindow = document.querySelector("#welcomeWindow");
+var welcomeClose = document.querySelector("#welcomeClose");
+var welcomeOpen = document.querySelector("#RetroButton");
+
+function closeWindow(element) {
+    element.style.display = "none";
+}
+
+function openWindow(element) {
+    element.style.display = "flex";
+}
+
+welcomeClose.addEventListener("click", function() {
+    closeWindow(welcomeWindow);
+});
+
+welcomeOpen.addEventListener("click", function() {
+    openwindow(welcomeWindow);
+})
