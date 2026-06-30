@@ -32,7 +32,7 @@ function dragElement(element) {
         initialY = e.clientY;
 
         element.style.top = (element.offsetTop - currentY) + "px";
-        element.style.left = (element.offsetTop - currentX) + "px";
+        element.style.left = (element.offsetLeft - currentX) + "px";
     }
 
     function stopDrag() {
