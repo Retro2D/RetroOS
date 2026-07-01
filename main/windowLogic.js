@@ -58,5 +58,5 @@ welcomeClose.addEventListener("click", function() {
 });
 
 welcomeOpen.addEventListener("click", function() {
-    openwindow(welcomeWindow);
+    openWindow(welcomeWindow);
 })
