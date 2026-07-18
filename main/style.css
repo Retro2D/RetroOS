@@ -3,6 +3,6 @@
 }
 
 #welcomeTopBar {
-    position: absolute;
+    position: relative;
     top: 8px;
 }

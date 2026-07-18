@@ -55,9 +55,11 @@ function openWindow(element) {
     element.style.display = "flex";
 }
 
-welcomeClose.addEventListener("click", function() {
-    closeWindow(welcomeWindow);
-});
+if (welcomeClose !==undefined && welcomeClose !==null) {
+    welcomeClose.addEventListener("click", function() {
+        closeWindow(welcomeWindow);
+    });
+}
 
 welcomeOpen.addEventListener("click", function() {
     openWindow(welcomeWindow);
