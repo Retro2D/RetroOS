@@ -1,8 +1,8 @@
 #welcomeWindow {
-    height: 300px;
+    margin-top: 5%;
 }
 
 #welcomeTopBar {
-    position: absolute;
+    position: flex;
     top: 8px;
 }
