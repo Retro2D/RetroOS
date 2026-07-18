@@ -27,8 +27,8 @@ function dragElement(element) {
             e = e || window.event;
             e.preventDefault();
 
-            currentX = initialX - e.clientX;
-            currentY = initialY - e.clientY;
+            currentX = e.clientX - initialX;
+            currentY = e.clientY - initialY;
             initialX = e.clientX;
             initialY = e.clientY;
 
