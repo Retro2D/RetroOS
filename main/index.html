@@ -44,6 +44,6 @@
         </p>
     </div>
     <script>
-        setInterval(function() {var getTime = new Date().toLocaleString({hour: '2-digit', minute: '2-digit'}); var selectBar = document.querySelector("#timeElement");   timeElement.innerHTML = getTime;}, 1000);  //Condensed time updater
+        setInterval(function() {var getTime = new Date().toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: false}); var selectBar = document.querySelector("#timeElement");   timeElement.innerHTML = getTime;}, 1000);  //Condensed time updater
     </script>
 </body>
