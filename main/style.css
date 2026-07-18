@@ -2,11 +2,6 @@
     margin-top: 15%;
 }
 
-#welcomeTopBar {
-    position: relative;
-    top: 8px;
-}
-
 #TimeElement {
     position-anchor: OStopBar;
 }
