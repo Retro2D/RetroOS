@@ -1,4 +1,8 @@
+#welcomeWindow {
+    height: 300px;
+}
+
 #welcomeTopBar {
     position: absolute;
-    top: 16px;
+    top: 8px;
 }
