@@ -1,11 +1,12 @@
 <head>
+    <script src="windowLogic.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body style="background-color: #898989; font-family: Palatino URW Palladio L, serif; background-image: url(./img/testbackground.png); background-size: cover;">
     <div id="welcomeWindow" style="border: solid; width:500; border-radius:8px; padding: 16px; position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); background-color:azure;">
         <div id="welcomeTopBar" style="background-color:#898989;">
-            <div style="background-color:crimson; width: 20px;">       
+            <div style="background-color:rgb(225, 25, 65); width: 20px;">       
               <p style="cursor:pointer"; id="welcomeClose";>X</p>
             </div>
         </div>
@@ -42,9 +43,6 @@
             6:07 PM
         </p>
     </div>
-
-    <script src="windowLogic.js"></script>
-    
     <script>
         setInterval(function() {var getTime = new Date().toLocaleString(); var selectBar = document.querySelector("#timeElement");   timeElement.innerHTML = getTime;}, 1000);  //Condensed time updater
     </script>
