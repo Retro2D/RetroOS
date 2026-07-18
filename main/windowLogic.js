@@ -61,6 +61,8 @@ if (welcomeClose !==undefined && welcomeClose !==null) {
     });
 }
 
-welcomeOpen.addEventListener("click", function() {
-    openWindow(welcomeWindow);
-})
+if (welcomeOpen !==undefined && welcomeOpen !==null) {
+    welcomeOpen.addEventListener("click", function() {
+        openWindow(welcomeWindow);
+    });
+}
