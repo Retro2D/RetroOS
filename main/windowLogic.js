@@ -114,6 +114,7 @@ function windowTapHandleService(element) {
 }
 
 function handleWindowTap(element) {
+    console.log("Window tapped");
     largestIndex++;
     element.style.zIndex = largestIndex;
     OStopBar.style.zIndex = largestIndex + 1;
