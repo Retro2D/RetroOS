@@ -1,3 +1,5 @@
+var appSelected = null;
+
 dragElement(document.getElementById("welcomeWindow"))
 
 function dragElement(element) {
