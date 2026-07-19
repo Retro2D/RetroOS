@@ -98,6 +98,12 @@ function openWindow(element) {
     element.style.display = "inline";
 }
 
+function windowTapHandleService(element) {
+    element.addEventListener("click", function() {
+        // handleWindowTap(element);
+    })
+}
+
 //Conditions for said events
 
 if (welcomeClose !==undefined && welcomeClose !==null) {
