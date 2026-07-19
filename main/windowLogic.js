@@ -99,3 +99,9 @@ if (welcomeOpen !==undefined && welcomeOpen !==null) {
         openWindow(welcomeWindow);
     });
 }
+
+if (demoClose !==undefined && demoClose !==null) {
+    demoClose.addEventListener("click", function() {
+        closeWindow(demoWindow);
+    });
+}
