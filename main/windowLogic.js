@@ -1,4 +1,5 @@
 var appSelected = undefined;
+var largestIndex = 1;
 
 function selectApplication(app) {
     element.classList.add("selected");
