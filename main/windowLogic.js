@@ -87,7 +87,7 @@ function closeWindow(element) {
 }
 
 function openWindow(element) {
-    element.style.display = "flex";
+    element.style.display = "inline";
 }
 
 if (welcomeClose !==undefined && welcomeClose !==null) {
