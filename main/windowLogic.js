@@ -79,6 +79,7 @@ var welcomeOpen = document.querySelector("#RetroButton");
 
 var demoWindow = document.querySelector("#demoApplication");
 var demoClose = document.querySelector("#demoClose")
+var demoOpen = document.querySelector("#demoIcon");
 
 function closeWindow(element) {
     element.style.display = "none";
