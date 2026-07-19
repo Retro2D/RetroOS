@@ -108,6 +108,7 @@ function windowTapHandleService(element) {
 function handleWindowTap(element) {
     largestIndex++;
     element.style.zIndex = largestIndex;
+    OStopBar.style.zIndex = largestIndex + 1;
 }
 
 //Conditions for said events
