@@ -6,7 +6,7 @@ function selectApplication(app) {
     appSelected = app;
 
     if (app == demoWindow) {
-        document.getElementById("demoSelect").style.color = "rgba(118, 155, 255, 0.5)";
+        document.getElementById("demoIcon").style.backgroundColor = "rgba(118, 155, 255, 0.5)";
     }
 }
 
@@ -15,7 +15,7 @@ function unselectApplication(app) {
     appSelected = undefined;
 
     if (app == demoWindow) {
-        document.getElementById("demoSelect").style.color = "rgba(118, 155, 255, 0)";
+        document.getElementById("demoIcon").style.backgroundColor = "rgba(118, 155, 255, 0)";
     }
 }
 
