@@ -110,6 +110,7 @@ if (demoClose !==undefined && demoClose !==null) {
 
 if (demoOpen !==undefined && demoOpen !==null) {
     demoOpen.addEventListener("click", function() {
+        console.log("Selected demo app")
         handleSelection(demoWindow);
     });
 }
