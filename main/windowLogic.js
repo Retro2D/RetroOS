@@ -2,12 +2,12 @@ var appSelected = undefined;
 var largestIndex = 1;
 
 function selectApplication(app) {
-    element.classList.add("selected");
+    app.classList.add("selected");
     appSelected = app;
 }
 
 function unselectApplication(app) {
-    element.classList.remove("selected");
+    app.classList.remove("selected");
     appSelected = undefined;
 }
 
