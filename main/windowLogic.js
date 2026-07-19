@@ -11,7 +11,7 @@ function unselectApplication(app) {
 }
 
 function handleSelection(app) {
-    
+
     if (appSelected == app) {
         unselectApplication(app);
         openWindow(app);
@@ -76,6 +76,9 @@ function dragElement(element) {
 var welcomeWindow = document.querySelector("#welcomeWindow");
 var welcomeClose = document.querySelector("#welcomeClose");
 var welcomeOpen = document.querySelector("#RetroButton");
+
+var demoWindow = document.querySelector("#demoApplication");
+var demoClose = document.querySelector("#demoClose")
 
 function closeWindow(element) {
     element.style.display = "none";
