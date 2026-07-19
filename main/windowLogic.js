@@ -121,27 +121,19 @@ function handleWindowTap(element) {
 
 //Conditions for said events
 
-if (welcomeClose !==undefined && welcomeClose !==null) {
-    welcomeClose.addEventListener("click", function() {
-        closeWindow(welcomeWindow);
-    });
-}
+welcomeClose.addEventListener("click", function() {
+    closeWindow(welcomeWindow);
+});
 
-if (welcomeOpen !==undefined && welcomeOpen !==null) {
-    welcomeOpen.addEventListener("click", function() {
-        openWindow(welcomeWindow);
-    });
-}
+welcomeOpen.addEventListener("click", function() {
+    openWindow(welcomeWindow);
+});
 
-if (demoClose !==undefined && demoClose !==null) {
-    demoClose.addEventListener("click", function() {
-        closeWindow(demoWindow);
-    });
-}
+demoClose.addEventListener("click", function() {
+    closeWindow(demoWindow);
+});
 
-if (demoOpen !==undefined && demoOpen !==null) {
-    demoOpen.addEventListener("click", function() {
-        console.log("Selected demo app")
-        handleSelection(demoWindow);
-    });
-}
+demoOpen.addEventListener("click", function() {
+    console.log("Selected demo app")
+    handleSelection(demoWindow);
+});
