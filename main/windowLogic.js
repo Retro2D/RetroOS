@@ -109,6 +109,6 @@ if (demoClose !==undefined && demoClose !==null) {
 
 if (demoOpen !==undefined && demoOpen !==null) {
     demoOpen.addEventListener("click", function() {
-        openWindow(demoWindow);
+        handleSelection(demoWindow);
     });
 }
