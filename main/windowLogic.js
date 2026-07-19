@@ -1,4 +1,4 @@
-var appSelected = null;
+var appSelected = undefined;
 
 function selectApplication(app) {
     element.classList.add("selected");
@@ -7,7 +7,15 @@ function selectApplication(app) {
 
 function unselectApplication(app) {
     element.classList.remove("selected");
-    appSelected = null;
+    appSelected = undefined;
+}
+
+function handleSelection(app) {
+    if (appSelected == app) {
+        unselectApplication(app);
+    } else {
+        selectApplication(app);
+    }
 }
 
 dragElement(document.getElementById("welcomeWindow"))
