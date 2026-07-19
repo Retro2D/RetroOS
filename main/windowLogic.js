@@ -1,5 +1,10 @@
 var appSelected = null;
 
+function selectApplication(app) {
+    element.classList.add("selected");
+    appSelected = app;
+}
+
 dragElement(document.getElementById("welcomeWindow"))
 
 function dragElement(element) {
