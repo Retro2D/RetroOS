@@ -96,6 +96,7 @@ function closeWindow(element) {
 
 function openWindow(element) {
     element.style.display = "inline";
+    handleWindowTap(element);
 }
 
 function windowTapHandleService(element) {
