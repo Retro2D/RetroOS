@@ -29,6 +29,7 @@ function dragElement(element) {
 
             currentX = initialX - e.clientX;
             if (initialY - e.clientY < 800) {
+                console.log(initialY - e.clientY)
                 currentY = initialY - e.clientY;
             }
             initialX = e.clientX;
