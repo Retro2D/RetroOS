@@ -2,6 +2,10 @@
     top: 15%;
 }
 
+#welcomeClose {
+    color: rgb(0, 0, 0, 1);
+}
+
 #TimeElement {
     position-anchor: OStopBar;
 }
