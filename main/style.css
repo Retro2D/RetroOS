@@ -6,6 +6,10 @@
     color: rgb(0, 0, 0, 0);
 }
 
+#demoClose {
+    color: rgb(0, 0, 0, 0);
+}
+
 #TimeElement {
     position-anchor: OStopBar;
 }
