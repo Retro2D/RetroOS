@@ -11,9 +11,11 @@ function unselectApplication(app) {
 }
 
 function handleSelection(app) {
+    
     if (appSelected == app) {
         unselectApplication(app);
         openWindow(app);
+
     } else {
         selectApplication(app);
     }
