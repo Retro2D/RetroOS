@@ -28,12 +28,12 @@ function dragElement(element) {
             e.preventDefault();
 
             currentX = initialX - e.clientX;
-            if (element.offsetTop - (initialY - e.clientY) < 800) { // Well, that was a good case study on what not to do.
+            if (element.offsetTop - (initialY - e.clientY) < 600) { // Well, that was a good case study on what not to do.
                 console.log(e.clientY)
                 currentY = initialY - e.clientY;
             }
             else {
-                element.style.top = "800px";
+                element.style.top = "599px";
             }
             initialX = e.clientX;
             initialY = e.clientY;
