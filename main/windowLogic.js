@@ -5,6 +5,11 @@ function selectApplication(app) {
     appSelected = app;
 }
 
+function unselectApplication(app) {
+    element.classList.remove("selected");
+    appSelected = null;
+}
+
 dragElement(document.getElementById("welcomeWindow"))
 
 function dragElement(element) {
