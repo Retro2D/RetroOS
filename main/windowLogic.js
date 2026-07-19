@@ -106,3 +106,9 @@ if (demoClose !==undefined && demoClose !==null) {
         closeWindow(demoWindow);
     });
 }
+
+if (demoOpen !==undefined && demoOpen !==null) {
+    demoOpen.addEventListener("click", function() {
+        openWindow(demoWindow);
+    });
+}
