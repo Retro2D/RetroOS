@@ -1,5 +1,6 @@
 #welcomeWindow {
     top: 15%;
+    min-height: -3000px
 }
 
 #TimeElement {
