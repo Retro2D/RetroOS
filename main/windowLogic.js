@@ -4,11 +4,19 @@ var largestIndex = 1;
 function selectApplication(app) {
     app.classList.add("selected");
     appSelected = app;
+
+    if (app == demoWindow) {
+        document.getElementById("demoSelect").style.color = "rgba(118, 155, 255, 0.5)";
+    }
 }
 
 function unselectApplication(app) {
     app.classList.remove("selected");
     appSelected = undefined;
+
+    if (app == demoWindow) {
+        document.getElementById("demoSelect").style.color = "rgba(118, 155, 255, 0)";
+    }
 }
 
 function handleSelection(app) {
