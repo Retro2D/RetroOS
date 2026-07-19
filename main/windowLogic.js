@@ -78,6 +78,8 @@ function dragElement(element) {
     }
 }
 
+// Variables for window handles
+
 var welcomeWindow = document.querySelector("#welcomeWindow");
 var welcomeClose = document.querySelector("#welcomeClose");
 var welcomeOpen = document.querySelector("#RetroButton");
@@ -86,6 +88,8 @@ var demoWindow = document.querySelector("#demoApplication");
 var demoClose = document.querySelector("#demoClose")
 var demoOpen = document.querySelector("#demoIcon");
 
+//Functions for window events
+
 function closeWindow(element) {
     element.style.display = "none";
 }
@@ -93,6 +97,8 @@ function closeWindow(element) {
 function openWindow(element) {
     element.style.display = "inline";
 }
+
+//Conditions for said events
 
 if (welcomeClose !==undefined && welcomeClose !==null) {
     welcomeClose.addEventListener("click", function() {
