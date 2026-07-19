@@ -28,7 +28,9 @@ function dragElement(element) {
             e.preventDefault();
 
             currentX = initialX - e.clientX;
-            currentY = initialY - e.clientY;
+            if (initialY - e.clientY < 800) {
+                currentY = initialY - e.clientY;
+            }
             initialX = e.clientX;
             initialY = e.clientY;
 
