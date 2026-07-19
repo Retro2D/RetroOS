@@ -55,10 +55,14 @@ function dragElement(element) {
             currentX = initialX - e.clientX;
             if (element.offsetTop - (initialY - e.clientY) < 600) { // Well, that was a good case study on what not to do.
                 console.log(e.clientY)
-                currentY = initialY - e.clientY;
+                if (element.offsetTop - (initialY - e.clientY > 45)) {
+                    currentY = initialY - e.clientY;
+                } else {
+                    element.style.top = "46px"; // Resets window Y to a functional value.
+                }
             }
             else {
-                element.style.top = "599px";
+                element.style.top = "599px"; // Same as above note, this time for values too high.
             }
             initialX = e.clientX;
             initialY = e.clientY;
