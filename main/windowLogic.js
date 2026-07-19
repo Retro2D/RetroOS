@@ -100,8 +100,13 @@ function openWindow(element) {
 
 function windowTapHandleService(element) {
     element.addEventListener("click", function() {
-        // handleWindowTap(element);
+        handleWindowTap(element);
     })
+}
+
+function handleWindowTap(element) {
+    largestIndex++;
+    element.style.zIndex = largestIndex;
 }
 
 //Conditions for said events
