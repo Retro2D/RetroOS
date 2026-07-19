@@ -20,6 +20,7 @@ function handleSelection(app) {
 }
 
 dragElement(document.getElementById("welcomeWindow"))
+dragElement(document.getElementById("demoWindow"))
 
 function dragElement(element) {
     if (element !==undefined && element !==null) {
