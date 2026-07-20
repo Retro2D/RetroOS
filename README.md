@@ -13,4 +13,6 @@ Built for the Stardust WebOS challenge.
 
 -Main window with info on the project, link to Stardust challenge
 
+-System settings with togglable dark/light themes
+
 -Background
