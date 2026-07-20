@@ -62,7 +62,20 @@
 
         <h1>Change system settings</h1>
 
-        <button><h2>Dark/light theme</h2></button>
+        <button id="themeButton"><h2>Dark/light theme</h2></button>
+
+        <script>
+            var theme = "light";
+            document.getElementById("themeButton").addEventListener("click", function() {
+                if (theme == "light") {
+                    document.getElementById("OStopBar").style.backgroundColor = "#898989";
+                    theme = "dark";
+                } else {
+                    document.getElementById("OStopBar").style.backgroundColor = "#4A4A4A";
+                    theme = "light";
+                }
+            });
+        </script>
     </div>
 
     <div id="desktopApps" style="padding-top: 64px; padding-left: 16px;">
