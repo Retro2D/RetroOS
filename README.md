@@ -1,7 +1,7 @@
 # RetroOS
 A webOS inspired by retro operating systems such as Apple System, AmigaOS, RiscOS, etc.
 
-Built for the Stardust WebOS challenge.  
+Built for the Hackclub Stardust WebOS challenge.  
 
 # Currently includes:
 
